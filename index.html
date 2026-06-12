@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <style>
+      *{
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .icons{
+        margin-left: 800px;
+      }
+      .navbar-nav{
+        margin-left: 400px;
+      }
+      .icon {
+        background-color: orangered;
+        padding: 5px !important;
+        border-radius: 20px;
+      }
+      div.font{
+        border-radius: 100px;
+      }
+      .banner {
+        background-image: url("./images/banner-01.jpg");
+        background-repeat: no-repeat;
+        padding: 10px;
+      }
+      .banner div {
+        position: relative;
+        margin-top:300px;
+        color: white;
+        margin: 370px;
+      }
+      .col-lg-7 h6{
+        color: orange;
+      }.col-lg-7 div{
+        background-color: #f6fafa;
+        padding: 01px 15px;
+        border-radius: 10px;
+      }
+      #video{
+        background-image: url("./images/video-bg.jpg");
+        background-repeat: no-repeat;
+        height: 500px;
+      }
+      .video-content{
+        position: relative;
+        color: white;
+      }
+      #stat-section{
+        display: flex;
+        justify-content: center;
+      }
+      .deals a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+      }
+      .deals ul{
+        display: flex;
+        margin-left: 800px;
+        gap: 20px;
+      }
+      #Contact{
+        background-image: url(./images/contact-bg.jpg);
+        height: 550px;
+      }
+
+    </style>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"/>
+  </head>
+  <body>
+<!--top start-->
+<section id="Home">
+    <section id="main">
+      <div class="mail">
+        <span class="ms-5 me-5"><img src="./icons8-mail-50.png" alt="email" height="20px">Info@company</span>
+        <span><img src="./images/icons8-karte-48.png" alt="map" height="25px">Sunny isles Beach,Fl 33160</span>
+        <span class="icons text-secondary">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-linkedin"></ion-icon>
+          <ion-icon name="logo-instagram"></ion-icon>
+          </span>
+      </div><hr>
+    </section>
+<!--top end-->`
+
+
+
+
+<!--header start-->
+    <nav class="navbar navbar-expand-lg bg-body-white" style="margin-top: -50px;">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5" href="#"><h1>VILLA</h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav gap-5">
+            <a class="nav-link active" aria-current="page" href="./index.html" style="color: orangered;">Home</a>
+            <a class="nav-link active" aria-current="page" href="./Properties.html">Properties</a>
+            <a class="nav-link active" aria-current="page" href="./Property Details.html">Property Details</a>
+            <a class="nav-link active" aria-current="page" href="./Contact Us.html">Contact Us</a>
+
+
+            <div class="font d-flex align-items-center bg-black h-30 pe-3" style="border-radius: 50px;">
+              <i class="icon"><img src="./calendar-solid-full.svg" alt="" width="30px" height="30px"></i>
+              <h6 class="ms-2 mb-1" style="color: orangered;">Schedule a visit</h6>
+            </div>
+            
+
+          </div>
+        </div>
+      </div>
+    </nav>
+<!--header end-->
+
+
+
+<!--banner start-->
+    <div class="banner">
+      <div style="margin-top: 250px;">
+        <span class="bg-white text-black">Toronto,</span><span class="bg-white text-warning">Canada</span><br><br>
+        <h1>HURRY!</h1>
+        <h1>GET THE BEST</h1>
+        <h1>VILLA FOR YOU </h1>
+      </div>
+    </div>
+</section>    
+<!--banner end-->
+
+<!--feature start-->
+<section id="Properties">
+    <div class="container mt-5 bg-white">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-5">
+              <img src="./images/featured.jpg" alt="FeaturedImg" class="img-fluid"/>
+              <img src="./images/featured-icon.png" alt="" height="70px" width="70px" style="background: orangered; border-radius: 50px; margin-top: -40px; margin-left: -30px;" class="p-3">
+            </div>
+
+            <div class="col-lg-7">
+              <h5 class="text-danger border-danger">|FEATURED</h5>
+              <h1>Best Appartment<br> & Sea View</h1>
+              <br>
+              <div>
+              <h6 class="mt-1">Best Useful links ?</h6><hr>
+              <p class="text-secondary">Get <span class="text-black">the best villa</span> website template in HTML CSS and Bootstrap of your bussiness.XYZ provides you the <span class="text-primary">best services</span> in the world .please tell your friends about it.</p>
+              <p>How does this Work ?</p><hr>
+              <p>Why is Villa Agency the best ?</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3">
+          <div class="card p-3 bg-white border-0 shadow" style="margin-right: -100px;">
+          <div class="d-flex">
+            <img src="./images/info-icon-01.png" alt="" width="60px" height="60px" />
+            <div class="ms-3">
+              <h5>250 m2</h5>
+              <p class="text-secondary opacity-50">Total flat space</p>
+            </div>
+          </div>      
+          <hr>
+          <div class="d-flex">
+            <img src="./images/info-icon-02.png" alt="" width="60px" height="60px" />
+            <div class="ms-3">
+              <h5>Contract</h5>
+              <p class="text-secondary opacity-50">Contract Ready</p>
+            </div>
+          </div>
+          <hr>
+          <div class="d-flex">
+            <img src="./images/info-icon-03.png" alt="" width="60px" height="60px">
+            <div class="ms-3">
+              <h5>Payment</h5>
+              <p>Payment Process</p>
+            </div>
+          </div>
+          <hr>
+          <div class="d-flex">
+            <img src="./images/info-icon-04.png" alt="" width="60px" height="60px">
+            <div class="ms-3">
+              <h5>Safety</h5>
+              <p>24/7 under control</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+</section>        
+<!--feature end-->
+
+
+<!--video start-->
+<section id="video">
+  <div class="video-content text-center mt-5"><br><br>
+    <br>
+      <h5 class="text-danger border-start border-danger fw-bold" style="margin-left:-35px;">| Video View<h2 style="margin-left: -50px;">Get Closer View & </h2><h2 style="margin-left: -50px;">Different Feeling</h2></h5>
+      <br><br>
+    <div class="img text-center">
+     <img src="./images/video-frame.jpg" alt="" class="img-fluid" width="1000px" height="400px" style="border-radius: 10px; margin-left: -480px;">
+     <img src="./icons8-play-48.png" alt="play" width="60px" height="60px"  style="margin-left: -520px; border-radius: 100%;">
+    </div>
+  </div>
+
+
+<section>
+  <div class="info-container" style="display: flex;">
+    <div class="info-card col-md-2" style="display: flex; align-items: center; background-color: rgb(254,236, 229); padding: 15px 25px; border-radius: 10px; position: relative; margin-left: 140px; margin-top: 60px; ">    
+      <div class="number" style="font-size: 30px; font-weight: bold; color: orangered; margin-right: 20px; ">34</div>
+      <div class="text" style="font-size: 15px; color: black;">
+        <h5>Buildings <br> finished Now</h5>
+      </div>
+      <div class="dot" style="width: 30px; height: 30px; background-color: #f15a29; border-radius: 50%; position: absolute; top: -12px; right: -12px;"></div>
+    </div>
+
+
+    <div class="info-card col-md-2" style="display: flex; align-items: center; background-color: rgb(254,236, 229); padding: 15px 25px; border-radius: 10px; position: relative; margin-left: 190px; margin-top: 60px;">
+      <div class="number" style="font-size: 30px; font-weight: bold; color: orangered; margin-right: 20px;">12</div>
+      <div class="text" style="font-size: 15px; color: black;">
+        <h5>Years <br> Experience</h5>
+      </div>
+      <div class="dot" style="width: 30px; height: 30px; background-color: #f15a29; border-radius: 50%; position: absolute; top: -12px; right: -12px;"></div>
+    </div>
+
+
+    <div class="info-card col-md-2" style="display: flex; align-items: center; background-color: rgb(254,236, 229); padding: 15px 25px; border-radius: 10px; position: relative; margin-left: 190px; margin-top: 60px;">
+      <div class="number" style="font-size: 30px; font-weight: bold; color: orangered; margin-right: 20px;">24</div>
+      <div class="text" style="font-size: 15px; color: black;">
+        <h5>Awards <br> Won 2023</h5>
+      </div>
+      <div class="dot" style="width: 30px; height: 30px; background-color: #f15a29; border-radius: 50%; position: absolute; top: -12px; right: -12px;"></div>
+    </div>
+  </div>
+</section>
+<br><br>
+<!--video end-->
+
+
+<!--Deals start-->
+<section class="p-1 pb-5 bg-light ">
+  <div class="deals" style="margin-left: 100px; margin-top: 50px;">
+    <h6 class="text-danger border-danger fw-bold">| BEST DEALS</h6>
+    <h2>Find Your Best Deal<br>Right Now!</h2>
+    <div class="menus">
+      <ul type="none">
+        <li><a href="" style="background-color: orangered; padding: 5px; border-radius: 4px; padding-left: 10px; padding-right: 10px;">Appartment</a></li>
+        <li><a href="" style="padding: 5px; border-radius: 4px; padding-left: 10px; padding-right: 10px;">Villa House</a></li>
+        <li><a href="" style="padding: 5px; border-radius: 4px; padding-left: 10px; padding-right: 10px;">Penthouse</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card shadow border-0" style="margin-left: 100px; padding: 10px; background-color: white;" >
+        <h6><span class="text-secondary">Total Flat Space</span><span style="margin-left: 39px;">185 m2</span></h6>
+        <hr>
+        <h6><span class="text-secondary">Floor Number</span><span style="margin-left: 65px;">26th</span></h6>
+        <hr>
+        <h6><span class="text-secondary">Number of rooms</span><span style="margin-left: 60px;">4</span></h6>
+        <hr>
+        <h6><span class="text-secondary">parking Available</span><span style="margin-left: 50px;">Yes</span></h6>
+        <hr>
+        <h6><span class="text-secondary">Payment Process</span><span style="margin-left: 40px;">Bank</span></h6>
+      </div>
+    </div>
+      <div class="col-md-5">
+        <img src="./images/deal-01.jpg" alt="hall" height="300px" width="550px" style="margin-left: 30px;">
+      </div>
+      <div class="col-md-4">
+        <div class="ms-5">
+          <h6>About Property :</h6>
+          <p>This image shows a modern and stylish <br> living room interior.The room has a large <br> grey sofa placed along the wall, giving an <br>comfortable seating area.</p>
+          <p>There is a center table and a chair placed <br> neatly, making the space look organized. <br>The overall room is making it as a perfect <br> place to relax.</p>
+          
+          
+          <div class="font d-flex bg-black w-50 h-30 pe-3" style="border-radius: 50px;">
+            <i class="icon"><img src="./calendar-solid-full.svg" alt="" width="30px" height="30px"></i>
+            <h6 class="ms-3 mb-1 mt-2 text-white">Schedule a visit</h6>
+          </div>
+        
+        
+        </div>
+      </div>
+  </div>
+</section>
+<!--Deals end-->
+
+
+<!--cards start-->
+<section id="Property Details">
+<section>
+  <div class="propertis" style="margin-top: 70px; margin-bottom: 50px;">
+     <div class="text-danger text-center fw-bold"><h6>|PROPERTIES</h6></div>
+     <h2 class="text-center">We Provide The Best</h2><h2 class="text-center">Property You Like</h2>
+  </div>
+
+
+<section class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+ <!--card 1--> 
+    <div class="col">
+      <div class="card-1" style="background-color: whitesmoke; padding: 20px; border-radius: 10px;">
+        <img src="./images/property-01.jpg" class="card-img-top" alt="..." style="border-radius: 10px;">
+          <div class="card-body">
+            <button style="border: 0; border-radius:7px; margin-left: 5px; margin-top: 20px; background-color:lightpink; padding-left: 7px; padding-right: 7px;">Luxuray Villa</button>
+            <span class="text-danger fw-bold" style="margin-left: 115px;">$2.264.000</span>
+            <h6 class="card-title fw-bold" style="margin-top: 30px; margin-left: 5px;">18 New street Miami, OR 97219</h6><br>
+            <span style="margin-left: 10px; margin-top: 80px; margin-left: 10px;">Bedrooms:<strong> 8</strong></span>
+            <span style="margin-left: 20px;">Bathrooms:<strong> 8</strong></span><br>
+            <span style="margin-left: 10px;">Area:<strong> 545m2</strong></span>
+            <span class="ms-3"> Floor:<strong> 3</strong></span>
+            <span class="ms-3"> Parking:<strong> 6 Spots</strong></span><hr>
+            <button class="text-white mt-2 mb-2" style="text-align: center; background-color: black; margin-left: 75px; border-radius: 20px;"><h6 class="ms-3 me-3 mt-2">Schedule a Visit</h6></button>
+          </div>
+      </div>
+    </div>
+
+
+
+<!--card 2-->
+  <div class="col">
+    <div class="card-2" style="background-color: whitesmoke; padding: 20px; border-radius: 10px;">
+      <img src="./images/property-02.jpg" class="card-img-top" alt="..." style="border-radius: 10px;">
+        <div class="card-body">
+          <button style="border: 0; border-radius:7px; margin-left: 5px; margin-top: 20px; background-color: lightpink; padding-left: 7px; padding-right: 7px;">Luxury Villa</button>
+          <span class="text-danger fw-bold" style="margin-left: 125px;">$1.180.000</span>
+          <h6 class="card-title fw-bold" style="margin-top: 30px; margin-left: 7px;">54 Mid Street Florida,OR 27001</h6><br>
+          <span style="margin-left: 10px; margin-top: 80px; margin-left: 10px;">Bedrooms :<strong>6</strong></span>
+          <span style="margin-left: 20px;">Bathrooms:<strong> 5</strong></span><br>
+          <span style="margin-left: 10px;">Area:<strong> 450m2</strong></span>
+          <span class="ms-3">Floor:<strong> 3</strong></span>
+          <span class="ms-3">Parking:<strong> 8 Spots</strong></span><hr>
+          <button class="text-white mt-2 mb-2" style="text-align: center; background-color: black; margin-left: 75px; border-radius: 20px;"><h6 class="ms-3 me-3 mt-2">Schedule a Visit</h6></button>
+        </div>
+    </div>
+  </div>
+
+
+
+<!--card 3-->
+  <div class="col">
+    <div class="card-3" style="background-color: whitesmoke; padding: 20px; border-radius: 10px;">
+      <img src="./images/property-03.jpg" class="card-img-top" alt="..." style="border-radius: 10px;">
+        <div class="card-body">
+          <button style="border: 0; border-radius:7px; margin-left: 10px; margin-top: 20px; background-color: lightpink; padding-left: 7px; padding-right: 7px;">Luxury Villa</button>
+          <span class="text-danger fw-bold" style="margin-left: 115px;">$1,460.000</span>
+          <h6 class="card-title fw-bold" style="margin-top: 30px; margin-left: 10px;"> <strong>26 Old Street Miami,OR 38540</strong></h6><br>
+          <span style="margin-top: 80px; margin-left: 12px;">Bedrooms:<strong> 5</strong></span>
+          <span class="ms-2">Bathrooms:<strong> 4</strong></span>
+          <span class="ms-2">Area:<strong> 225m2</strong></span>
+          <span style="margin-left: 13px;">Floor:<strong> 3</strong></span>
+          <span class="ms-3">Parking:<strong> 10 Spots</strong></span><hr>
+          <button class="text-white mt-2 mb-2" style="text-align: center; background-color: black; margin-left: 75px; border-radius: 20px;"><h6 class="ms-3 me-3 mt-2">Schedule a Visit</h6></button>
+        </div>
+    </div>
+  </div>
+
+    
+  
+<!--card 4-->
+  <div class="col">
+    <div class="card-4" style="background-color: whitesmoke; padding: 20px; border-radius: 10px;">
+      <img src="./images/property-04.jpg" class="card-img-top" alt="" style="border-radius: 10px;">
+        <div class="card-body">
+          <button style="border: 0; border-radius:7px; margin-left: 7px; margin-top: 20px; background-color: lightpink; padding-left: 7px; padding-right: 7px;">Apartment</button>
+          <span class="text-danger fw-bold" style="margin-left: 140px;">$584.500</span>
+          <h6 class="card-title fw-bold" style="margin-top: 30px; margin-left: 10px;"><strong>12 New Street Miami, OR 12650</strong></h6><br>
+          <span style="margin-left: 10px; margin-top: 80px; margin-left: 10px;">Bedrooms:<strong> 4</strong></span>
+          <span class="ms-2">Bathrooms:<strong> 3</strong></span>
+          <span class="ms-2">Area:<strong> 125m2</strong></span>
+          <span style="margin-left: 10px;">Floor:<strong> 25th</strong></span>
+          <span class="ms-3">Parking:<strong> 2 cars</strong></span><hr>
+          <button class="text-white mt-2 mb-2" style="text-align: center; background-color: black; margin-left: 75px; border-radius: 20px;"><h6 class="ms-3 me-3 mt-2">Schedule a Visit</h6></button>
+        </div>
+    </div>
+  </div>
+
+
+
+<!--car 5 -->
+  <div class="col">
+    <div class="card-5" style="background-color: whitesmoke; padding: 20px; border-radius: 10px;">
+      <img src="./images/property-05.jpg" class="card-img-top" alt="" style="border-radius: 10px;">
+        <div class="card-body">
+          <button style="border: 0; border-radius:7px; margin-left: 7px; margin-top: 20px; background-color: lightpink; padding-left: 7px; padding-right: 7px;">Penthouse</button>
+          <span class="text-danger fw-bold" style="margin-left: 140px;">$925.600</span>
+          <h6 class="card-title fw-bold" style="margin-top: 30px; margin-left: 10px;"> <strong>34 Beach street Miami, OR 42680</strong></h6><br>
+          <span style="margin-left: 10px; margin-top: 80px; margin-left: 10px;">Bedrooms:<strong> 4</strong></span>
+          <span class="ms-2">Bathrooms:<strong> 4</strong></span>
+          <span class="ms-2">Area:<strong> 180m2</strong></span>
+          <span style="margin-left: 10px;">Floor:<strong> 38th</strong></span>
+          <span class="ms-3"> Parking:<strong> 2 cars</strong></span><hr>
+          <button class="text-white mt-2 mb-2" style="text-align: center; background-color: black; margin-left: 75px; border-radius: 20px;"><h6 class="ms-3 me-3 mt-2">Schedule a Visit</h6></button>
+        </div>
+    </div>
+  </div>
+
+
+
+<!--card 6-->
+  <div class="col">
+    <div class="card-6" style="background-color: whitesmoke; padding: 20px; border-radius: 10px;">
+      <img src="./images/property-06.jpg" class="card-img-top" alt="..." style="border-radius: 10px;">
+        <div class="card-body">
+          <button style="border: 0; border-radius:7px; margin-left: 10px; margin-top: 20px; background-color: lightpink; padding-left: 7px; padding-right: 7px;">Modern Condo</button>
+          <span class="text-danger fw-bold" style="margin-left: 105px;">$450.000</span>
+          <h6 class="card-title fw-bold" style="margin-top: 30px; margin-left: 10px;">22 New Street Portland,OR 16540</h6><br>
+          <span style="margin-left: 10px; margin-top: 80px; margin-left: 10px;">Bedrooms :<strong>3</strong></span>
+          <span class="ms-2">Bathrooms:<strong> 2</strong></span>
+          <span class="ms-2">Area:<strong> 165m2</strong></span>
+          <span style="margin-left: 10px;">Floor:<strong> 26th</strong></span>
+          <span class="ms-3">Parking:<strong> 3 cars</strong></span><hr>
+          <button class="text-white mt-2 mb-2" style="text-align: center; background-color: black; margin-left: 75px; border-radius: 20px;"><h6 class="ms-3 me-3 mt-2">Schedule a Visit</h6></button>
+        </div>
+    </div>
+  </div>
+</section>
+</section>
+</section>
+<!--cards end-->
+
+
+<!--Contact Details start-->
+<section id="Contact Us">
+<section id="Contact" style="margin-top: 80px;">
+    <h6 class="text-danger" style="margin-left: 620px; padding-top: 90px;">| Contact Us</h6>
+    <h1 class="text-white" style="margin-left: 500px; margin-top: 20px;">Get In Touch With<br><h1 class="text-white" style="margin-left: 560px; margin-bottom: -80px;">Our Agents<h1></h1>
+    <div style="margin-left: 150px; margin-top: 150px;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27357.6016618067!2d-80.12391455!3d25.93909295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1776762164782!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+    <div class="form shadow border-0 pb-5" style="margin-left: 850px; margin-top: -450px; background-color: white; padding: 0px 30px; width: 400px; border-radius: 10px;">
+      <form>
+        <div>
+          <label for="form" class=" mt-4">Full Name</label><br>
+          <input type="Full Name" class="form-control mt-2" style=" background-color: whitesmoke; border-radius: 50px;" placeholder="Your Name....">
+        </div>
+
+        <div>
+          <label for="form" class=" mt-4">Email Address</label><br>
+          <input type="Full Name" class="form-control mt-2" style=" background-color: whitesmoke; border-radius: 50px;" placeholder="Your E-mail....">
+        </div>
+
+        <div>
+          <label for="form" class=" mt-4">Subject</label><br>
+          <input type="Full Name" class="form-control mt-2" style="background-color: whitesmoke; border-radius: 50px;" placeholder="Subject....">
+        </div>
+
+        <div>
+          <label for="form" class=" mt-4">Message</label><br>
+          <textarea name="Message" id="" class="form-control mt-2 pb-5" style="background-color: whitesmoke; border-radius: 15px;" placeholder="Your Message"></textarea>
+        </div>
+
+        <button class="mt-5 bg-black text-white" style="border-radius: 50px;"><div class="ms-3 me-3 mt-1 mb-1">Send Message</div></button>
+      </form>
+    </div>
+
+<section>
+    <div class="shadow border-0" style="margin-right: 950px; margin-left: 150px; margin-top: -85px; padding-bottom: 5px; border-radius: 10px;">
+      <div class="d-flex">
+       <img src="./images/phone-icon.png" alt="landline" width="40px" height="40px" style="margin-top: 25px; margin-left: 20px;"><h5 class="ms-4 mt-3">010-020-0340</h5>
+      </div>
+       <p style="margin-left: 85px; margin-top: -25px;">Phone Number</p>
+    </div>
+
+
+    <div class="shadow border-0" style="margin-right: 625px; margin-left: 470px; margin-top: -85px; padding-bottom: 5px; border-radius: 10px;">
+      <div class="d-flex">
+       <img src="./images/email-icon.png" alt="landline" width="40px" height="40px" style="margin-top: 20px; margin-left: 20px;"><h5 class="ms-4 mt-3">info@villa.com</h5>
+      </div>
+       <p style="margin-left: 85px; margin-top: -20px;">Business Email</p>
+    </div>
+</section>
+</section>
+</section>
+<!--Contact Details end-->
+
+
+<!--footer-->
+<section style="margin-top: 450px;">
+  <div class="footer">
+    <div class="text-white bg-black" style="padding: 20px;"><p style="margin-left: 350px; margin-top: 8px;">Copyright © 2048 Villa Agency Co., Ltd. All rights reversed. Design: Yaswanth Kumar</p></div>
+  </div>
+</section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
