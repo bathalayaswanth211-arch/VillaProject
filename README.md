@@ -44,8 +44,6 @@ The primary goal of this project is to enhance front-end development skills by b
 ## 🚀 Live Demo
 https://villaprojects.netlify.app/:
 
-https://iridescent-bavarois-36729f.netlify.app/
-
 ## 🔮 Future Enhancements
 
 * User authentication and profile management
